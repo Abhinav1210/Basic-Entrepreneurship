@@ -1,0 +1,674 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\textbf{National Institute of Technology,}
+\end{quote}
+
+\textbf{Raipur}
+
+\includegraphics[width=2.47778in,height=2.77222in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image1.png}
+
+Term Paper
+
+\textbf{MACHINE LEARNING FOR}
+
+\textbf{BUSINESS ANALYTICS}
+
+\begin{quote}
+\textbf{Name:} Abhinav Lodh\\
+\textbf{Roll No.} 19117001\\
+\textbf{Subject:} Basic Entrepreneurship\\
+\textbf{Semester:} 6th\\
+\textbf{Branch:} Electrical Engineering
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\textbf{INTRODUCTION}
+
+\begin{quote}
+Machine learning is an important component of artificial intelligence.
+Machine learning is collecting data, analyzing data, and prediction data
+for industrial applications. Machine learning learns automatically from
+the data and behaves accordingly without explicitly programmed. Data
+analytical is required to evaluate and estimate the benefits of
+organizational goals. It is used to formulate equations, models and
+functions within systems. Data analytics required statistics, artificial
+intelligence, data mining, deep learning, prediction mechanism, and so
+on to evaluate the evaluation of data within an organization. The
+statistical analysis leads to work on the behavioral function of
+industries along with analysis of collecting data, presentation,
+processing, and visualization for different purposes including uses,
+re-uses, filtering, binning, etc. \textbf{Business analytics}
+(\textbf{BI}) comprises the strategies and technologies used by
+enterprises for the data analysis of business information. BI
+technologies provide historical, current, and predictive views of
+business operations. Business analytics can be used by enterprises to
+support a wide range of business decisions ranging from operational to
+strategic. Basic operating decisions include product positioning or
+pricing. Strategic business decisions involve priorities, goals, and
+directions at the broadest level. In all cases, BI is most effective
+when it combines data derived from the market in which a company
+operates (external data) with data from company sources internal to the
+business such as financial and operations data (internal data). When
+combined, external and internal data can provide a complete picture
+which, in effect, creates an "analytics" that cannot be derived from any
+singular set of data.
+
+BI systems combine data gathering, data storage, and knowledge
+management with analytical tools to present complex internal and
+competitive information to planners and decision makers. Implicit in
+this definition is the idea (perhaps the ideal) that business analytics
+systems provide actionable information delivered at the right time, at
+the right location, and in the right form to assist decision makers. The
+objective is to improve the timeliness and quality of inputs to the
+decision process, hence facilitating managerial work.
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\endhead
+ \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\includegraphics[width=4.6in,height=2.98611in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image2.png}
+\end{quote}
+
+\textbf{Inputs to Business Analytics Systems}
+
+\begin{quote}
+\textbf{WHAT MACHINE LEARNING CAN DO FOR}
+\end{quote}
+
+\textbf{BUSINESS}
+
+\begin{quote}
+For businesses, machine learning can manage the heavy data lifting
+necessary to get to the core of your performance.
+
+For example, machine learning algorithms can identify the factors that
+are contributing to and detracting from your brand health by analyzing
+your data from every angle. Machine learning is unique in that it can
+quickly identify relationships that may not be immediately apparent or
+intuitive to humans.
+
+Say your brand exhibits positive trends. Sales are increasing year over
+year. Penetration is up. Every graph and visualization arcs in a
+positive direction.
+
+\textbf{With good numbers in hand, it can be easy to miss the bigger
+picture.} And frankly, your team likely doesn't have the bandwidth to
+dive deep, especially when things look good on the surface.
+
+Machine learning algorithms can identify the underlying currents. Sales
+may be increasing, but your market share is stagnant and the brand's
+category is declining nationally. Meaning, sales are only a part of what
+they could be, and failure to adapt to a changing marketplace could
+result in decline over time.
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\endhead
+ \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\textbf{BUSINESS ANALYTICS}
+
+\begin{quote}
+Business analytics can help companies make better decisions by showing
+present and historical data within their business context. Analysts can
+leverage BI to provide performance and competitor benchmarks to make the
+organization run smoother and more efficiently. Analysts can also more
+easily spot market trends to increase sales or revenue. Used
+effectively, the right data can help with anything from compliance to
+hiring efforts. A few ways that business analytics can help companies
+make smarter, data-driven decisions:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.50}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.50}}@{}}
+\toprule
+\includegraphics[width=0.13889in,height=0.13889in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image3.png}
+& \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+Identify ways to increase profit
+\end{quote}
+\end{minipage} \\
+\midrule
+\endhead
+\includegraphics[width=0.13889in,height=0.48611in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image4.png}
+& \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Analyze customer behavior
+\end{quote}
+\end{minipage} \\
+& \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Compare data with competitors
+\end{quote}
+\end{minipage} \\
+\includegraphics[width=0.13889in,height=0.48611in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image5.png}
+& \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Track performance
+\end{quote}
+\end{minipage} \\
+& \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Optimize operations
+\end{quote}
+\end{minipage} \\
+\includegraphics[width=0.13889in,height=0.125in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image6.png}
+& \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Predict success
+\end{quote}
+\end{minipage} \\
+\includegraphics[width=0.13889in,height=0.48611in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image7.png}
+& \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Spot market trends
+\end{quote}
+\end{minipage} \\
+& \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Discover issues or problems
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\includegraphics[width=4.48889in,height=2.81389in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image8.png}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\endhead
+ \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\textbf{WHY BUSINESS ANALYTICS IS IMPORTANT}
+
+The role of business analytics is to improve an organization's business
+operations through the use of relevant data. Companies that effectively
+employ BI tools and techniques can translate their collected data into
+valuable insights about their business processes and strategies. Such
+insights can then be used to make better business decisions that
+increase productivity and revenue, leading to accelerated business
+growth and higher profits.
+
+Without BI, organizations can't readily take advantage of data-driven
+decision- making. Instead, executives and workers are primarily left to
+base important business decisions on other factors, such as accumulated
+knowledge, previous experiences, intuition and gut feelings. While those
+methods can result in good decisions, they're also fraught with the
+potential for errors and missteps because of the lack of data
+underpinning them.
+
+\includegraphics[width=5.25556in,height=3.73056in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image9.png}
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\endhead
+ \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\textbf{TYPES OF BUSINESS ANALYTICS}
+
+There are generally two types of Business Analytics,
+
+When managers have a good idea of what they wish to analyze sales
+figures or customer satisfaction stats but they are not aware of the end
+results then most preferred tool is \textbf{strategic business
+analytics}. When decision makers stand on the option they \emph{``don't
+know}'' strategic BI is adopted. There are instances in a business
+organization where managers deliver anticipated information in such
+situations \textbf{operational business analytics} is the best preferred
+over strategic analytics
+
+\textbf{Strategic Business Analytics}
+
+Strategic Business Analytics also known as auto-delivered analytics is
+often associated with reporting from an analytical data source or data
+warehouse. Basically, strategic BI improves a business process by
+analyzing a predetermined set of data relevant to that process and
+provides historical context of data. In addition, strategic analytics
+provides the base for forecasting, goal-setting, planning and direction.
+Strategic BI needs to be delivered in an interactive manner, enabling
+the manager to present his views on data in different ways. Also,
+strategic business analytics emphasizes on its output on a graphical
+display such as charts and graphs to represent trends, opportunities and
+problem areas.
+
+Strategic business analytics converges on four important parameters:
+
+•Collection and storage of data
+
+•Optimization of data for analysis
+
+•Identification of crucial business drivers through past data records
+\textbf{Operational Business Analytics}
+
+Operational business analytics is associated with the transactional or
+operational data source and is consistent with reporting data during
+organizational processes. In general, operational BI provides
+time-sensitive, relevant information to operations managers, business
+professionals, and front-
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+line, customer-facing employees to support daily work processes. Also if
+the data retrieved from the analysis directly supports or helps complete
+operational tasks, then the analytics is operational in nature. But
+operational business analytics demands recipients time as possible which
+iron out the information presented in an interactive manner. Since
+operational BI is task oriented there is less need of charts and graphs.
+Consider an example informing a staff member in an organization
+regarding information on client's credit or on over dues. In such a
+scenario graphical representation won't hold good but a brief message
+will solve the problem. Hence communication methods and devices play a
+vital role in operational BI. Thus, operational BI comprises multiple
+delivery methods like instant message, email, dashboard and Twitter. The
+output from an operational business analytics include invoices,
+schedules, shipping documents, receipts and financial statements.
+
+\textbf{BUSINESS ANALYTICS: METHODOLOGIES}
+
+There are a variety of online business analytics tools using which you
+can access numerous ways to collect business insights, here are some of
+the widely recommended methodologies widely used to gather business
+analytics.
+
+\textbf{Step 1 -- Data collection}
+
+The first step in acquiring business analytics is data collection. There
+are various methods to collect data, which can provide reliable
+information for statistical analysis and help an organization to make
+data-driven decisions.
+
+\textbf{Surveys}\\
+\textbf{Online surveys} -- Online Survey remains the most reliable,
+economical, and widely used method to reach a larger audience for data
+collection.
+
+\textbf{In-person surveys} -- In-person surveys are face-to-face
+interviews. For years, it has been the most effective method of
+collecting themost accurate information. As this approach to gather
+business analytics relies on direct communication, observing body
+traits, behavior, and reactions of the respondent also play a vital role
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Polls}\\
+Polls are a little different than surveys and this approach usually
+consists of only one question. The response rate for polls is extremely
+high, as it is very easy to answer and it takes very less time.
+
+For example -- The best example for a poll would be election polls.
+Polls are conducted to find out which party is favored and preferred by
+voters that would govern the specified area in a particular term.
+
+\textbf{Step 2 -- Analysis}\\
+This is the step where all the data comes under a single platform. A
+Business Analytics software will enable you to collect as well as
+analyze data with advanced analytical tools embedded in the same
+software. Analyzing the data collected through various methods helps an
+organization to understand their customer's opinions and find out areas
+needing improvement. The software allows you to compare scores (such as
+NPS, CES, CSAT) for varied periods and also among departments. You can
+use the same BI Software to analyze the data under advanced pretexts
+such as Conjoint Analysis, Max diff Analysis, Trend Analysis, Text and
+Sentiment Analysis and many more. This way, you would get a solid
+snapshot of where your organization stands among your customers at any
+given time.
+
+\emph{For example --} The Hospitality industry must measure customer
+experience and satisfaction on an ongoing basis. By analyzing and
+monitoring customer satisfaction scores and NPS scores consistently, the
+organization can improve their customer's experience and become more
+customer-centric to achieve higher revenues and customer loyalty.
+
+\textbf{Step 3 -- Reporting and presentation}
+
+After analysis, the next step is to understand what the metrics mean.
+This step is the most important, as the wrong interpretation of the data
+can send your organization down a cliff. Conversion into visual
+infographics can sometimes
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+make it easier for a person to understand. Such understanding will
+enable the organization to find answers to most pressing business,
+operational and marketing questions.
+
+These steps will help you to start using business analytics software
+effectively, however, this is not the final step. An organization needs
+to continuously monitor and analyze real-time data to stay in the
+competition and keep meeting the ever-changing customer needs or even
+figure out the next best steps for the future. Following this path to
+utilize business analytics effectively will provide an organization to
+spend money and time more wisely and tackle future goals, needs, and
+trends successfully.
+
+\textbf{ADVANTAGE OF BUSINESS ANALYTICS}
+
+\textbf{1.Relevant and accurate reporting:}
+
+Using different kinds of data sources, employees can customize their
+reports and monitor KPIs. Real-time generated reports offer the most
+pertinent data, which help companies make faster and better decisions.
+Data from sales, finance, or operations are used to create easily
+accessible reports, have great visualizations with the help of charts,
+graphs, tables, etc. These reports offer faster insights, access,
+accuracy, and relevancy.
+
+\textbf{2.Key Insights:}
+
+BI reporting tools assist in monitoring. To get the complete insight on
+revenue, losses, gains, the productivity of the employees, performances
+of the employees (individual and team-based.) It provides valuable
+information about the positives and the negatives. With these tools,
+companies can easily track the metrics and be current with what's
+happening and what's to come by setting up alerts, getting real-time
+information on the KPIs, and alerting any pitfalls that otherwise could
+have gone unnoticed.
+
+\textbf{3.Stay ahead in the game:}
+
+Companies of all sizes have vast amounts of data. Moreover, managing and
+using data for business decisions provides a competitive edge. BI offers
+incredible benefits with the help of this data in terms of forecasting,
+budgeting, planning, and staying on top of things via analysis.
+Competitive analysis helps
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+companies to know the competition and the performance of their
+competitors as well. This, in turn, leads to finding out how to
+differentiate one's products from others. It goes the same for services
+as well.
+
+\textbf{4.Quality and accurate data:}
+
+The success of any kind within an enterprise is data-dependent. Quality
+of data defines the quality of the company and its success. Any
+inaccuracies or flaws in the data can turn businesses upside down. BI
+tools help businesses in cleaning up data, creating data of high
+quality, collecting, updating, and analyzing data to gain the most
+relevant insight on what's going on within the company.
+
+\textbf{5.Improved customer satisfaction:}
+
+Business analytics software mainly helps companies to not just learn
+about their employees but their customers too. When it comes to customer
+behavior, user personas, feedback, BI lets you in on all the insights.
+These BI tools help to identify what's lacking with your services or
+products and enhance customer satisfaction by making necessary changes.
+Real-time data on the customer's feedback help in bringing corrective
+changes and deliver excellent customer service and satisfaction.
+
+\includegraphics[width=6.26528in,height=2.15in]{vertopal_22d92e0c9a5e458c8bfb775110198854/media/image10.png}
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\endhead
+ \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\textbf{6.Improve growth patterns:}
+
+BI assists companies in gaining a competitive edge by helping them find
+new opportunities and build smarter strategies. With the help of all the
+data, you can identify market trends and help improve profit margins for
+the company. New sales trends can be identified by leveraging data from
+the internal and external markets, analyzing the data. The market
+conditions can help spot any business issues that can otherwise go
+unnoticed.
+
+\textbf{7.Efficiency and accuracy:}
+
+BI tools offer a single source of information; it helps the employees or
+the executive hierarchy to spend more time on productivity and less time
+on managing data. This way, employees can focus on producing reports and
+timely deliverables in real-time. This accurate information leads to
+better decision making and helps companies achieve long and short-term
+goals.
+
+\textbf{8.Faster decision making:}
+
+BI reduces the times a company has to lose a customer, revenue, or deal
+with inaccurate information or slow processes. It is essential in
+gaining a competitive edge for companies to make faster and accurate
+decisions by leveraging the existing data, at the right time, and
+improve decision making.
+
+\textbf{9.Greater operational efficiency and increased revenue:}
+
+BI tools offer business data, which makes the leaders and employees of a
+company think about the decisions made, processes implemented, and
+strategies executed. Getting a 360-degree view on all the dimensions to
+help companies identify issues and improve operations, increased sales,
+and in turn, increase revenue.
+
+\textbf{10.Bigger profits:}
+
+Most businesses find profit margins as a big concern. BI tools can
+analyze from the enormous volumes of data any discrepancies,
+inefficiencies, errors, etc. It helps expand profit margins, and the
+sales teams get better insights for future sales and analyze where to
+spend the budgets in the future.
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\toprule
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\textbf{CONCLUSION}
+
+\begin{quote}
+In today's data-driven world, companies are facing information overload
+and companies who are interested in working smarter, are investing in
+ways to control and understand this information. The era of big data is
+upon us. In fact, we are producing so much data that 90\% of the data
+out there has been collected in the past few years. Although adopting
+new technology may seem like a daunting task, BI software usually has a
+good pay off even if the benefits aren't seen immediately.
+
+Business Analytics helps companies monitor trends, adapt to varying
+market conditions, and improves decision making at all levels of the
+organization. The BI tools a company uses depends on their goals. Some
+companies are interested in gaining insights into consumer buying, other
+companies are interested in improving employee productivity or seeing
+who the best performers are. There are an infinite number of ways
+companies can deploy a business analytics solution. Here are just ten
+ways business analytics can improve businesses.
+
+\textbf{REFERENCES}\\
+1.Running Lean by Ash Maurya\\
+2.Business Intelligence Research Paper by Solomon Negash.
+
+3.When Business Analytics meets Machine Learning \textbar{} by Maxim
+Scherbak \textbar{} Towards Data Science.
+
+4.Machine Learning for Business Analytics Research Paper by Kagan
+Okatun.
+\end{quote}
+\end{minipage} \\
+\bottomrule
+\end{longtable}
+
+\end{document}
